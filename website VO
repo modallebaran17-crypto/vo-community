@@ -1,0 +1,18 @@
+# masuk ke folder project
+cd vo-community
+
+# inisialisasi git
+git init
+
+# tambahkan remote (ganti URL dengan repo kamu)
+git remote add origin https://github.com/username/vo-community.git
+
+# tambahkan semua file
+git add .
+
+# commit pertama
+git commit -m "First commit - Website Komunitas VO"
+
+# kirim ke GitHub
+git branch -M main
+git push -u origin main
